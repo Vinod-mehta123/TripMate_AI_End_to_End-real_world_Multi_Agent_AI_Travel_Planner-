@@ -1,0 +1,17 @@
+[project]
+name = "tripmate"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "enter", email = 'user.email like : "mehtavinod0087@gmail.com"' }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+tripmate = "tripmate:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
