@@ -157,7 +157,8 @@ ENV/
 env.bak/
 venv.bak/
 test.py
-uv.lock
+
+
 
 # Spyder project settings
 .spyderproject
